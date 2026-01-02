@@ -1,0 +1,46 @@
+# ======================
+# Python / Django
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django files
+db.sqlite3
+*.log
+local_settings.py
+
+# ======================
+# Virtual Environments
+# ======================
+venv/
+.env/
+.env.*
+
+# Pipenv
+Pipfile.lock  # optional: remove this line if you WANT to commit lock file
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# OS / Editor junk
+# ======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Static / Media (if generated)
+# ======================
+staticfiles/
+media/
+
+# ======================
+# Node / Frontend (just in case)
+# ======================
+node_modules/
